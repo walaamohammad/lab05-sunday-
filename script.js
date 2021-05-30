@@ -2,7 +2,7 @@ var userName = [ 'walaa','zaid','osama','zaina','layan'];
 var favpet =" cat"
 var userAge ="20"
 
-for(var i = 0; i <= userName.length; i++) {
+for(var i = 0; i < userName.length; i++) {
 console.log(userName[i]);
   document.write('<img src="https://image.shutterstock.com/image-vector/cute-grey-cat-cartoon-260nw-1044708187.jpg"/>')
   }
