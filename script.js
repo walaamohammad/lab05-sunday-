@@ -7,10 +7,10 @@ console.log(userName[i]);
   document.write('<img src="https://image.shutterstock.com/image-vector/cute-grey-cat-cartoon-260nw-1044708187.jpg"/>')
   }
 
- var userName = prompt('please enter your name?');
+ var userName = prompt('please enter your name?(chooze zaid layan walaa)');
 var favpet = prompt('what is you favpet?');
 
-var userAge = prompt('what is your age ?');
+var userAge = prompt('what is your age(less than 20) ?');
 if (userAge==20 && favpet=="cat"){document.write("welcome to our club")}
 
 while (userName !== 'walaa' || favpet!=='cat'){
